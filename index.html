@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilletMax – Power of India’s Grains</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom gradient */
+        .hero-gradient {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        }
+        .cta-gradient {
+            background: linear-gradient(135deg, #fb923c 0%, #f97316 100%);
+        }
+        .cta-gradient:hover {
+            background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-orange-600">MilletMax</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#problem" class="text-gray-600 hover:text-orange-600 transition duration-300">The Challenge</a>
+                <a href="#solution" class="text-gray-600 hover:text-orange-600 transition duration-300">Our Solution</a>
+                <a href="#product" class="text-gray-600 hover:text-orange-600 transition duration-300">The Product</a>
+                <a href="#mission" class="text-gray-600 hover:text-orange-600 transition duration-300">Our Mission</a>
+                <a href="#invest" class="text-gray-600 hover:text-orange-600 transition duration-300">The Ask</a>
+            </div>
+            <!-- Mobile Menu Button (optional, simple for now) -->
+            <div class="md:hidden">
+                <!-- A simple menu icon could go here if needed -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-gradient pt-20 pb-24 md:pt-32 md:pb-36 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-orange-900 mb-4">MilletMax</h1>
+                <p class="text-2xl md:text-4xl font-bold text-gray-700 mb-6">Power of India’s Grains.</p>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    Protein for All, from the Heart of India.
+                </p>
+                <a href="#solution" class="mt-10 inline-block cta-gradient text-white font-bold py-3 px-8 rounded-lg text-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-0.5">
+                    Discover Our Bar
+                </a>
+            </div>
+        </section>
+
+        <!-- The Problem Section -->
+        <section id="problem" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">India's Health Challenge</h2>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8">
+                        Most of us want to eat healthy, but nutrition is often either too expensive or too unhealthy.
+                    </p>
+                    <div class="flex flex-col md:flex-row justify-center gap-6">
+                        <!-- Card 1: Expensive -->
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 flex-1">
+                            <h3 class="text-2xl font-bold text-red-600 mb-3">Too Expensive</h3>
+                            <p class="text-gray-700">
+                                Most protein bars in the market cost <span class="font-bold">₹150 or more</span>, and they're filled with imported ingredients, making health a luxury.
+                            </p>
+                        </div>
+                        <!-- Card 2: Unhealthy -->
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md border border-gray-200 flex-1">
+                            <h3 class="text-2xl font-bold text-red-600 mb-3">Too Unhealthy</h3>
+                            <p class="text-gray-700">
+                                Cheaper snacks are often loaded with sugar, preservatives, and processed ingredients, offering little to no real nutritional value.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Solution Section -->
+        <section id="solution" class="py-20 md:py-28 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Solution: India's Superfood</h2>
+                        <p class="text-lg text-gray-600 mb-6">
+                            We wanted to change that. So we created MilletMax, a tasty, affordable protein bar made from <span class="font-bold text-orange-600">India’s own superfood — millets!</span>
+                        </p>
+                        <p class="text-lg text-gray-600 mb-6">
+                            India is the largest producer of millets like <span class="font-semibold">ragi, jowar, and bajra</span> — ancient grains rich in protein, fiber, and iron.
+                        </p>
+                        <p class="text-lg text-gray-600">
+                            We combined these grains with peanuts, jaggery, honey, and dry fruits to make a bar that’s truly wholesome.
+                        </p>
+                    </div>
+                    <div>
+                        <!-- Placeholder image for millets -->
+                        <img src="https://placehold.co/600x400/fde68a/7c2d12?text=India's+Millets" 
+                             alt="A bowl of mixed millets like ragi, jowar, and bajra"
+                             class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Product Section -->
+        <section id="product" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <!-- Placeholder image for the product -->
+                    <div class="order-2 md:order-1">
+                        <img src="https://placehold.co/600x400/fb923c/ffffff?text=MilletMax+Protein+Bar" 
+                             alt="The MilletMax protein bar showing its natural ingredients"
+                             class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Packed with Real Energy</h2>
+                        <ul class="space-y-4 mb-6">
+                            <li class="flex items-start text-lg">
+                                <span class="text-green-600 font-bold text-2xl mr-3">✅</span>
+                                <span class="text-gray-700"><span class="font-bold">100% Natural:</span> No artificial flavors or sweeteners.</span>
+                            </li>
+                            <li class="flex items-start text-lg">
+                                <span class="text-green-600 font-bold text-2xl mr-3">✅</span>
+                                <span class="text-gray-700"><span class="font-bold">Free from Preservatives:</span> Just wholesome, natural ingredients.</span>
+                            </li>
+                            <li class="flex items-start text-lg">
+                                <span class="text-green-600 font-bold text-2xl mr-3">✅</span>
+                                <span class="text-gray-700"><span class="font-bold">Packed with Goodness:</span> Each bar gives <span class="font-bold">10–12 grams of protein</span>.</span>
+                            </li>
+                        </ul>
+                        <p class="text-lg text-gray-600">
+                            It's enough to power your day, whether you’re a student, athlete, or just someone who wants to eat right.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Mission & Business Model -->
+        <section id="mission" class="py-20 md:py-28 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission is Simple</h2>
+                    <p class="text-2xl md:text-3xl text-orange-600 font-semibold">
+                        “Healthy food should not be a luxury.”
+                    </p>
+                </div>
+                
+                <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+                    <!-- Card 1: Price -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Affordable for All</h3>
+                        <p class="text-4xl font-extrabold text-orange-600 mb-3">₹30-35</p>
+                        <p class="text-gray-600">
+                            We plan to sell MilletMax at just ₹30–35 per bar, making it half the price of foreign brands.
+                        </p>
+                    </div>
+                    <!-- Card 2: Cost & Local -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Vocal for Local</h3>
+                        <p class="text-4xl font-extrabold text-orange-600 mb-3">₹18-20</p>
+                        <p class="text-gray-600">
+                            Each bar costs ₹18–20 to make, giving us a good margin while supporting local farmers.
+                        </p>
+                    </div>
+                    <!-- Card 3: Target -->
+                    <div class="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Smart Distribution</h3>
+                        <p class="text-gray-600 pt-10"> <!-- Padding to align text -->
+                            We’ll start by targeting schools, gyms, and college canteens, then expand to online and retail stores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Investment / "The Ask" Section -->
+        <section id="invest" class="py-20 md:py-28 bg-orange-600 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">Are You Ready to Invest?</h2>
+                <p class="text-lg md:text-xl text-orange-100 max-w-3xl mx-auto mb-10">
+                    We're seeking an investment to scale up production and design eco-friendly packaging that’s both affordable and attractive.
+                </p>
+                <p class="text-2xl md:text-3xl font-bold text-white max-w-4xl mx-auto">
+                    So Sharks, are you ready to invest in a future where India eats smart, lives strong, and grows local?
+                </all>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-2xl font-bold text-white mb-2">MilletMax</p>
+            <p class="text-lg mb-4">Protein for All, from the Heart of India.</p>
+            <p class="text-gray-400">&copy; 2025 Team MilletMax. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
